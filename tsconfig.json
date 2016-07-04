@@ -7,7 +7,7 @@
     },
     "files": [
         "index.ts",
-        "typings/tsd.d.ts",
+        "typings/index.d.ts",
         "portfinder.d.ts"
     ]
 }
