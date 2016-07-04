@@ -1,0 +1,23 @@
+{
+  "name": "devlisten",
+  "version": "1.0.0",
+  "description": "Listen on a IP port and a boxen UNIX socket",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/tsd install",
+    "watch": "./node_modules/.bin/tsc --watch",
+    "build": "./node_modules/.bin/tsc && ./node_modules/.bin/babel --presets es2015 index.js > index.js.tmp && mv index.js.tmp index.js"
+  },
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "author": "Tomas Carnecky <tomas.carnecky@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "portfinder": "^1.0.3"
+  }
+}

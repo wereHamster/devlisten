@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "node",
+        "declaration": true,
+        "noImplicitAny": true
+    },
+    "files": [
+        "index.ts",
+        "typings/tsd.d.ts",
+        "portfinder.d.ts"
+    ]
+}
