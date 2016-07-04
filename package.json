@@ -1,6 +1,6 @@
 {
   "name": "devlisten",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Listen on a IP port and a boxen UNIX socket",
   "scripts": {
     "setup": "./node_modules/.bin/typings install",
