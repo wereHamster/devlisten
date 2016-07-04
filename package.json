@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Listen on a IP port and a boxen UNIX socket",
   "scripts": {
-    "postinstall": "./node_modules/.bin/tsd install",
+    "setup": "./node_modules/.bin/typings install",
     "watch": "./node_modules/.bin/tsc --watch",
     "build": "./node_modules/.bin/tsc && ./node_modules/.bin/babel --presets es2015 index.js > index.js.tmp && mv index.js.tmp index.js"
   },
